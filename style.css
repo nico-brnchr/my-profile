@@ -1,0 +1,149 @@
+body {
+  background-color: #CFE8EF;
+  color: black;
+  }
+
+
+p {
+ font-family: 'Solway', serif;
+ font-size: 23px;
+}
+
+div {
+ margin: 20px;
+ background: #BBD1EA;
+ border: 3px solid #DE9E36;
+ padding: 30px;
+ font-size: small;
+           font-family: "Tahoma", Arial, sans-serif;
+           text-align: left;
+           border-radius: 8px; 
+    }	
+
+
+
+h1, h2, h3 {
+	font-family: 'Supermercado One', cursive;;
+	color: #DE9E36;
+	text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+
+h1 { 
+	font-size: 50px;
+	text-align: center;
+	
+}
+
+h2 {
+    	font-size : 40px;
+    	font-weight : lighter;
+    	text-align: center;
+      margin-bottom: 10px;
+    }
+
+.centre {
+        background: #6D9DC5;
+        border: 3px solid #6D9DC5;
+ 
+   	text-decoration: none;
+    	color : black;
+    	font-weight : bold;
+    	text-align: center;
+
+    }
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-weight: 600px;
+  font-size: 25px;	
+}
+
+a:hover {
+    	color: white;
+     }
+
+p span {
+	color: #FF9505
+	font-style:bold;
+}
+
+
+/* Custom design with class*/
+.container {
+	width: 700px;
+	margin: 40px auto;
+	background-color: #ACD7EC;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+    background-color: #BDD5EA;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1)
+    border-radius: 4px
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle{
+    border-radius: 50%;
+    box-shadow: 5px 5px 3px black; 
+    margin-bottom: 40px;
+    width:175px;
+    height:175px;
+    }
+
+.btn-blue{
+    background-color: #DE9E36;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.btn-blue:hover{
+    background-color: black;
+    color: white;
+}
+
+.list-inline{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline >li{
+    
+    padding: 2px;
+    font-size: 35px;
+}    
+
+.list-inline>i hover{
+	font-size: 150px;
+}
+
+#introduction p{
+	margin-bottom: 40px;
+}
+
+
+
+
